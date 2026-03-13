@@ -37,3 +37,31 @@ footer {
     background: white;
     border-top: 1px solid #ddd;
 }
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.main-button {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    padding: 15px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    background: #555;
+}
