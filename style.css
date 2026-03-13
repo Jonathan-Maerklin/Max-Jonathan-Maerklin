@@ -61,6 +61,13 @@ footer {
     font-size: 18px;
     border-radius: 5px;
 }
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
 
 .main-button:hover {
     background: #555;
